@@ -1,4 +1,7 @@
 # <span style="color:rgb(255, 0, 76);">WEATHER ME NOW</span>
+![screenshot](https://github.com/user-attachments/assets/67c0df95-3407-419b-88fb-41b25a2c9c29)
+
+
 ![License: MIT](./utils/MITBADGE.svg)
 ##  <span style="color:rgb(0, 217, 255);">Table of Contents</span>
 - [Description](#description)
@@ -13,7 +16,6 @@
   
 
   ## <span style="color:rgb(158, 66, 160);">Description</span>
-
   [!Render](m)
 
 Whenever you need a list of potential candidates from github, come take a look here! You can save or reject anyone you choose.  
