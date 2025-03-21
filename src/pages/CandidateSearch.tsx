@@ -3,7 +3,7 @@ import { searchGithub, searchGithubUser } from '../api/API';
 import type { Candidate } from '../interfaces/Candidate.interface';
 
 const CandidateSearch = () => {
-  const [candidates, setCandidates] = useState<Array<any>>([]);
+  const [_candidates, setCandidates] = useState<Array<any>>([]);
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>
   (JSON.parse(localStorage.getItem('savedCandidates') || '[]'));
   const [singleCandidate, setSingleCandidate] = useState<Candidate>({
