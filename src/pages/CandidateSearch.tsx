@@ -33,6 +33,8 @@ const Accepted = () => {
     const updatedList = [...savedCandidates, singleCandidate];
     setSavedCandidates(updatedList);
     localStorage.setItem('savedCandidates', JSON.stringify(updatedList));
+
+    fetchCandidates();
   }
 };
 
