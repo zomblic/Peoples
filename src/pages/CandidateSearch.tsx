@@ -54,8 +54,10 @@ const Rejected = () => {
         <p>Bio: {singleCandidate?.bio || 'work in progress'}</p>
       </article>
 
-      <button type='button' title='Reject candidate' onClick={Rejected}>-</button>   <button type='button' title='Save candidate' onClick={Accepted}>+</button>
-    </>
+  <div className="button-group">
+        <button className="reject-button" type='button' title='Reject candidate' onClick={Rejected}>-</button>  
+        <button className="accept-button" type='button' title='Save candidate' onClick={Accepted}>+</button>
+      </div>    </>
   );
 };
 
