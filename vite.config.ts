@@ -18,6 +18,6 @@ export default defineConfig({
     port: Number(process.env.PORT) || 3000, // Use the PORT provided by Render, fallback to 3000
   },
   preview: {
-    allowedHosts: ['candidate-search-app-rc2q.onrender.com'], // Add this host to allowed hosts
+    allowedHosts: ['peoples.onrender.com'], // Add this host to allowed hosts
   },
 });
